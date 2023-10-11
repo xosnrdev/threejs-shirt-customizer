@@ -76,7 +76,7 @@ const Customizer = () => {
       setGeneratingImg(true);
 
       const response = await fetch(
-        "https://threejs-3d-backend.onrender.com/api/v1/dalle",
+        "https://api-deployment-ak6b.onrender.com/api/v1/dalle",
         {
           method: "POST",
           headers: {
